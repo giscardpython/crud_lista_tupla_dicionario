@@ -71,7 +71,6 @@ while escolha > 0:
             indice = int(input('Informe o índice a ser alterado: '))
             campo = input('Informe o nome do campo a ser alterado: ')
             indice -= 1
-            # usuário altera o dado do campo desejado
             try:
                 pessoas[indice][campo] = input(f'Informe o novo valor do campo {campo}: ')
             except:
