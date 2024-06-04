@@ -54,7 +54,6 @@ while escolha > 0:
         case 3:
             # usuário informa o nome que deseja procurar
             nome = input('Informe o nome que deseja encontrar: ').capitalize()
-            # programa retorna o resultado
             for i in range(len(pessoas)):
                 if nome in pessoas[i]['Nome']:
                     print(f'\nÍndice: {i + 1}')
